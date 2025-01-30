@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    Body{
+        background-image: url("DALL·E\ 2025-01-28\ 15.51.49\ -\ A\ sleek\ and\ modern\ restaurant\ logo\ design\ for\ \'Spice\ Hub\'\,\ optimized\ for\ a\ website\ background.\ The\ logo\ features\ a\ minimalist\ illustration\ of\ spices\ \(.webp");
+        background-size: cover;
+        padding: 50px;
+        
+    }
+    h1{
+        text-align: center;
+        text-shadow: 2px 2px 9px red;
+    }
+    p{
+        color: black;
+        text-shadow: 2px 2px 5px hotpink;
+    }
+    .logo{
+        width: 70px; height: 70px;
+        display: block;
+        margin: auto;
+        background-color: black;
+        border: dashed;
+       
+    }
+    
+    
+</style>
+<body>
+    <img src="DALL·E 2025-01-28 15.51.49 - A sleek and modern restaurant logo design for 'Spice Hub', optimized for a website background. The logo features a minimalist illustration of spices (.webp" class="logo"></img>
+    <h1>WELCOME TO SPICE HUB</h1>
+    <p><b>Where Flavor Meets Fire!
+
+        At Spice Hub, we take you on an unforgettable culinary journey filled with bold flavors, sizzling aromas, and mouthwatering delights. Our specialty lies in spicy soups that warm your soul and succulent kebabs grilled to perfection. Every dish is crafted with authentic spices, fresh ingredients, and a passion for delivering the ultimate taste experience.
+        
+        Whether you're craving a hearty, spice-infused broth or perfectly charred, juicy kebabs, our menu is designed to satisfy your cravings. Step into our warm and inviting atmosphere, where the rich flavors of tradition and the thrill of spice come together in every bite.
+        
+        Indulge in the heat. Savor the flavor. Only at Spice Hub.</b></p>
+        <ul>
+           <li><label for="dropdown">Menu:</label>
+            <select id="dropdown" onchange="navigateToPage()">
+                <option value="">Select</option>
+                <option value="veg.html">Veg</option>
+                <option value="capstonewd.html">Non-veg</option>
+                <option value="dessert.html">Dessert</option>
+            </select>
+            
+            <script>
+                function navigateToPage() {
+                    var dropdown = document.getElementById("dropdown");
+                    var selectedValue = dropdown.value;
+                    if (selectedValue) {
+                        window.location.href = selectedValue; // Redirect to the selected URL
+                    }
+                }
+            </script></li>
+        </ul>
+        <p>For best dine in experience <a href="https://www.google.com/maps/place/Nawab+Shah+Alam+Khan+College+of+Engineering+and+Technology/@17.3720731,78.4911097,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb98374153c2a5:0xf728da57c1cef040!8m2!3d17.372068!4d78.4936846!16s%2Fg%2F1thtblch?authuser=0&entry=ttu&g_ep=EgoyMDI1MDEyNy4wIKXMDSoASAFQAw%3D%3D">Visit our restaurant</a></p>
+</body>
+</html>
